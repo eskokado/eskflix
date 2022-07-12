@@ -93,15 +93,15 @@ main {
 .secaoDestaque_itemNavegacao--branco a img{
   margin-right: 10px;
 }
-.secaoDestaque_itemNavegacao--bege {
+.secaoDestaque_itemNavegacao--transparente {
 }
-.secaoDestaque_itemNavegacao--bege a{
-  background-color: #808080;
-  color: white;
+.secaoDestaque_itemNavegacao--transparente a{  
+  color: #fff;
+  background-color: rgb(255 255 255 / 30%);
   padding: 5px;
   border-radius: 3px;
 }
-.secaoDestaque_itemNavegacao--bege a img{
+.secaoDestaque_itemNavegacao--transparente a img{
   margin-right: 10px;
 }
 .secaoFilmes{
