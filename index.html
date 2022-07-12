@@ -8,12 +8,12 @@
   <title>Esk Flix</title>
 </head>
 <body>
-  <header>
-    <figure>
+  <header class="cabecalho">
+    <figure class="cabecalho__logo">
       <img src="./assets/img/logo.png" alt="Logo">
       <figcaption>Logo</figcaption>
     </figure>
-    <nav>
+    <nav class="cabecalho__menu">
       <ul>
         <li><a href="#">Início</a></li>
         <li><a href="#">Séries</a></li>
@@ -22,7 +22,7 @@
         <li><a href="#">Minha lista</a></li>
         <li><a href="#">Assista de novo</a></li>
       </ul>
-      <div>
+      <div class="cabecalho__menuConfiguracao">
         <ul>
           <li><a href="#"><img src="./assets/img/pesquisa.png" alt="Pesquisa"></a></li>
           <li><a href="#">INFANTIL</a></li>
@@ -34,24 +34,24 @@
     </nav>
   </header>
   <main>
-    <section>
+    <section class="secaoDestaque">
       <h1>
-        <figure>
+        <figure class="secaoDestaque__imagemDestaque">
           <img src="./assets/img/titulo-destaque.png" alt="Titulo do filme">
           <figcaption>Titulo do filme</figcaption>
         </figure>
       </h1>
-      <article>
+      <article class="secaoDestaque__descricaoDestaque">
         <p>Quando um garoto desaperece a cidade toda participa nas buscas. Mas o que encontram são segredos, forças sobrenaturais e uma menina.</p>
       </article>
-      <ul>
+      <ul class="secaoDestaque__navegacaoDestaque">
         <li><a href="#"><img src="./assets/img/assistir.png" alt="">Assistir</a></li>
         <li><a href="#"><img src="./assets/img/info.png" alt=""> Mais informações</a></li>
       </ul>
     </section>
-    <section>
-      <h3>Em alta</h3>
-      <ul>
+    <section class="secaoFilmes">
+      <h3 class="secaoFilmes__titulo">Em alta</h3>
+      <ul class="secaoFilmes__listaFilmes">
         <li>
           <a href="#">
             <figure>
@@ -95,14 +95,14 @@
       </ul>
     </section>
   </main>
-  <footer>
-    <div>
+  <footer class="rodape">
+    <div class="rodape_midiasSociais">
       <a href="#"><img src="./assets/img/fb.png" alt="Facebook"></a>
       <a href="#"><img src="./assets/img/ig.png" alt="Instagram"></a>
       <a href="#"><img src="./assets/img/tt.png" alt="Twitter"></a>
       <a href="#"><img src="./assets/img/yt.png" alt="Youtube"></a>
     </div>
-    <nav>
+    <nav class="rodape__menuNavegacao">
       <ul>
         <li><a href="#">Idioma e legenda</a></li>
         <li><a href="#">Imprensa</a></li>
@@ -125,7 +125,7 @@
         <li><a href="#">Informações corporativas</a></li>
       </ul>      
     </nav>
-    <a href="#">Código do serviço</a>
+    <a href="#" class="rodape_linkCodigo">Código do serviço</a>
     <p>© 1997-2021 KenzieFlix, Inc.  {i-062d573a0ee0992422349882}</p>
   </footer>
 </body>

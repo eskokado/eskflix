@@ -1,0 +1,43 @@
+body{}
+
+.cabecalho{}
+.cabecalho__logo{}
+.cabecalho__logo img{}
+
+.cabecalho__menu {}
+.cabecalho__menu ul{}
+.cabecalho__menu ul li{}
+.cabecalho__menu ul li a{}
+
+.cabecalho__menuConfiguracao {}
+.cabecalho__menuConfiguracao ul{}
+.cabecalho__menuConfiguracao ul li{}
+.cabecalho__menuConfiguracao ul li a{}
+
+.secaoDestaque{}
+.secaoDestaque__imagemDestaque {}
+.secaoDestaque__imagemDestaque img{}
+.secaoDestaque__descricaoDestaque{}
+.secaoDestaque__descricaoDestaque p{}
+.secaoDestaque__navegacaoDestaque{}
+.secaoDestaque__navegacaoDestaque li{}
+.secaoDestaque__navegacaoDestaque li a{}
+.secaoDestaque__navegacaoDestaque li a img{}
+
+.secaoFilmes{}
+.secaoFilmes__titulo{}
+.secaoFilmes__listaFilmes{}
+.secaoFilmes__listaFilmes li{}
+.secaoFilmes__listaFilmes li a{}
+.secaoFilmes__listaFilmes li a img{}
+
+.rodape{}
+.rodape p{}
+.rodape_midiasSociais{}
+.rodape_midiasSociais a{}
+.rodape_midiasSociais a img{}
+.rodape__menuNavegacao{}
+.rodape__menuNavegacao ul{}
+.rodape__menuNavegacao li{}
+.rodape__menuNavegacao li a{}
+.rodape_linkCodigo{}
