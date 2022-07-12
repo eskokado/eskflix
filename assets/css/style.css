@@ -1,29 +1,102 @@
-body{}
+body,figure,img,div,header,nav,main,ul,li,a,p,section,article,h1,h2,footer{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Roboto Serif', serif;
+}
 
-.cabecalho{}
-.cabecalho__logo{}
+figcaption{
+  display: none;
+}
+img {
+  max-width: 1200px;
+}
+
+.cabecalho{
+  background-color: #141414;
+}
+.cabecalho__logo{
+  text-align: center;
+  padding: 15px 0;
+}
 .cabecalho__logo img{}
 
-.cabecalho__menu {}
+.cabecalho__menu {
+  display: none;
+}
 .cabecalho__menu ul{}
 .cabecalho__menu ul li{}
 .cabecalho__menu ul li a{}
 
-.cabecalho__menuConfiguracao {}
+.cabecalho__menuConfiguracao {
+  display: none;
+}
 .cabecalho__menuConfiguracao ul{}
 .cabecalho__menuConfiguracao ul li{}
 .cabecalho__menuConfiguracao ul li a{}
 
-.secaoDestaque{}
-.secaoDestaque__imagemDestaque {}
-.secaoDestaque__imagemDestaque img{}
-.secaoDestaque__descricaoDestaque{}
-.secaoDestaque__descricaoDestaque p{}
-.secaoDestaque__navegacaoDestaque{}
-.secaoDestaque__navegacaoDestaque li{}
-.secaoDestaque__navegacaoDestaque li a{}
-.secaoDestaque__navegacaoDestaque li a img{}
+.secaoDestaque{
+  background-image: url("../img/destaque.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 30px 20px 25px;
+}
+.secaoDestaque h1{}  
+.secaoDestaque h1 img{
 
+}  
+.secaoDestaque article{}  
+.secaoDestaque ul{}  
+.secaoDestaque ul li{}  
+.secaoDestaque ul li a{}  
+
+.secaoDestaque__imagemDestaque {}
+.secaoDestaque__imagemDestaque img{
+  width: 70%;
+}
+.secaoDestaque__descricaoDestaque{
+  color: white;
+  font-size: 0.8rem;
+  margin: 10px 0 15px;
+}
+.secaoDestaque__descricaoDestaque p{}
+.secaoDestaque__navegacaoDestaque{
+  display: flex;
+}
+.secaoDestaque__navegacaoDestaque li{
+  margin-right: 15px;
+}
+.secaoDestaque__navegacaoDestaque li a{
+}
+.secaoDestaque__navegacaoDestaque li a img{
+  width: 10px;
+}
+.secaoDestaque_itemNavegacao--branco {
+}
+.secaoDestaque_itemNavegacao--branco a{
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border-radius: 3px;
+}
+.secaoDestaque_itemNavegacao--branco a img{
+  margin-right: 10px;
+}
+.secaoDestaque_itemNavegacao--bege {
+}
+.secaoDestaque_itemNavegacao--bege a{
+  background-color: #808080;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+}
+.secaoDestaque_itemNavegacao--bege a img{
+  margin-right: 10px;
+}
 .secaoFilmes{}
 .secaoFilmes__titulo{}
 .secaoFilmes__listaFilmes{}
